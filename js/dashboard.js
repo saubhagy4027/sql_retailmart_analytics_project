@@ -1179,7 +1179,7 @@ async function initDashboard() {
     switchTab(state.currentTab || "executive");
     updateAlertBadge();
     document.getElementById("footerTimestamp").textContent =
-      "RetailMart V3 Analytics | Sayyed Siraj Ali | Last updated: " + new Date().toLocaleString("en-IN");
+      "RetailMart V3 Analytics | Saubhagy | Last updated: " + new Date().toLocaleString("en-IN");
   } else {
     console.error("Failed to initialize dashboard");
   }
